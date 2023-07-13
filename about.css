@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+}
+
+body {
+
+    background: #F3F3F3;
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: var(--main-black, #181717);
+    font: 500 50px DM Sans;
+
+}
+
+header nav {
+
+    display: flex;
+    align-items: center;
+
+}
+
+header nav p {
+
+    color: var(--main-black, #181717);
+    font: 500 22px DM Sans;
+}
+
+header nav p:hover {
+
+    text-decoration: underline;
+
+}
+
+header nav p:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.about {
+    margin-top: 147px;
+}
+
+.about .info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about .info .left {
+    width: 575px;
+
+}
+
+.about .info .right {
+
+    width: 457px;
+    height: 405px;
+    background: var(--main-gray, #606060);
+
+}
+
+.about .info .left h1 {
+    color: var(--main-black, #181717);
+    font: 500 60px 'DM Sans';
+
+
+}
+
+.about .info .left p {
+    color: var(--main-gray, #606060);
+    font: 400 24px DM Sans;
+    margin-top: 47px;
+}
+
+.about .skills {
+    margin-top: 168px;
+}
+
+.about .skills .skill-1 {
+    display: flex;
+}
+
+.about .skill-1 h2 {
+    color: var(--main-black, #181717);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    margin-right: 60px;
+
+
+}
+
+.about .skill-1 p {
+
+    color: var(--main-black, #181717);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    width: 440px;
+
+}
+
+.about .skill-2 {
+    display: flex;
+    margin-top: 86px;
+}
+
+.about .skill-2 h2 {
+
+    color: var(--main-black, #181717);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    margin-right: 60px;
+}
+
+.about .skill-2 p {
+    color: var(--main-black, #181717);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    width: 400px;
+
+}
+
+.about .line {
+    margin-top: 110px;
+    height: 2px;
+    background-color: #181717;
+}
+
+.contacts {
+    display: flex;
+    margin-top: 70px;
+}
+
+.contacts h2 {
+    color: var(--main-black, #181717);
+    font: 400 32px DM Sans;
+    width: 347px;
+    height: 71px;
+}
+
+.contacts .arrow-2 {
+    width: 23px;
+    height: 24px;
+    background-image: url(./arrow2.png);
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+
+.contacts p {
+    margin-left: 390px;
+    color: var(--main-black, #181717);
+    font-family: DM Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
