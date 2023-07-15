@@ -8,7 +8,7 @@ body {
 
     background: #F3F3F3;
     width: 1200px;
-    margin: auto;
+    margin: 120px 136px 172px 136px;
 }
 
 header {
@@ -159,13 +159,37 @@ header nav p:not(:last-child) {
     background-image: url(./arrow2.png);
     background-repeat: no-repeat;
     margin-left: 40px;
+    margin-top: 25px;
 }
 
 .contacts p {
     margin-left: 390px;
     color: var(--main-black, #181717);
-    font-family: DM Sans;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
+    font: 400 32px DM Sans;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 135px;
+}
+
+footer .ur-name {
+    color: #2429AF;
+    font: 500 22px DM Sans;
+}
+
+footer nav {
+    display: flex;
+    color: var(--main-black, #181717);
+    font: 500 21px DM Sans;
+    margin-right: 40px;
+}
+
+footer nav p:hover {
+    text-decoration: underline;
+}
+
+footer nav .linkedin {
+    margin-right: 40px;
 }
