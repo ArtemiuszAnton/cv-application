@@ -5,10 +5,8 @@
 }
 
 body {
-    margin-top: 106px;
-    margin-right: 160px;
-    margin-left: 160px;
-    margin-bottom: 116px;
+    margin: 106px 160px;
+    width: 1120px;
 }
 
 header {
@@ -37,33 +35,38 @@ header nav p {
 .preview {
     margin-top: 128px;
     display: flex;
+    justify-content: space-between;
+    width: 1120px;
 }
 
 .preview .info {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .preview .info h1 {
     color: var(--main-black, #181717);
     font: 500 60px DM Sans;
+    width: 360px;
+    height: 135px;
 }
 
-.preview p {
-    display: flex;
+.preview .info p {
     color: #606060;
     font: 400 32px DM Sans;
-    margin-left: 180px;
+    width: 580px;
+    margin-left: 300px;
+    
+
 }
 
 .img-arrow {
-    background-image: url(./arrow.png);
+    background-image: url(../assets/arrow.png);
     height: 40px;
     width: 34px;
     background-size: contain;
     background-repeat: no-repeat;
-   margin-top: 128px;
+    margin-top: 128px;
 }
 
 .project {
@@ -93,9 +96,6 @@ header nav p {
 .project .portfolio .first-proj {
     color: var(--main-black, #181717);
     font: 400 22px DM Sans;
-    line-height: 121.5%;
-    letter-spacing: -0.66px;
-    margin-top: 25px;
 }
 
 .project .portfolio .my-lang {
@@ -109,7 +109,6 @@ header nav p {
     margin-left: 124px;
     background: var(--main-gray, #606060);
     justify-content: flex-end
-    
 }
 
 .project .portfolio .more-shots-1 {
@@ -280,5 +279,5 @@ footer .tg {
 }
 
 footer nav p:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }

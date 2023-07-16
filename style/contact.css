@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body {
+    background: #F3F3F3;
+    width: 1200px;
+    margin: 120px 136px 90px 136px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: var(--main-black, #181717);
+    font: 500 50px DM Sans;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-black, #181717);
+    font: 500 22px DM Sans;
+
+}
+
+header nav p {
+    margin-left: 32px;
+}
+
+header nav p:hover {
+    text-decoration: underline;
+}
+
+.contact h1 {
+    margin-top: 115px;
+    color: var(--main-black, #181717);
+    font: 500 60px DM Sans;
+    margin-bottom: 32px;
+}
+
+.contact p {
+    color: var(--main-gray, #606060);
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.contact .form {
+    display: flex;
+    margin-top: 52px;
+    justify-content: space-between;
+}
+
+.contact .form .inputs {}
+
+.contact .form .inputs .em {
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    width: 676px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.contact .form .inputs .ps {
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    background: #FFF;
+    width: 676px;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+.contact .btn {
+    border-radius: 5px;
+    background: #000;
+    width: 162px;
+    text-align: center;
+    color: #FFF;
+    font: 700 18px DM Sans;
+    padding: 10px 0;
+    margin-top: 27px;
+}
+
+.contact .btn:hover {
+    border: 1px solid #C4C4C4;
+}
+
+.contact .btn:active {
+    background-color: #606060;
+    margin: 28px 1px 0 0;
+
+}
+
+.contact .form .text {
+    width: 395px;
+}
+
+.contact .form .text .numb {
+    margin-top: 19px;
+
+}
+
+footer {
+    display: flex;
+    margin-top: 120px;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+footer h3 {
+    color: #2429AF;
+    font: 500 22px DM Sans;
+    width: 270px;
+}
+
+footer nav {
+    display: flex;
+    color: var(--main-black, #181717);
+    font: 500 21px DM Sans;
+}
+
+footer nav p:hover {
+    text-decoration: underline;
+}
+
+footer nav .lnkdn {
+    margin-right: 40px;
+}
