@@ -45,9 +45,7 @@ header nav p:hover {
 
 .contact p {
     color: var(--main-gray, #606060);
-    font-family: DM Sans;
-    font-size: 22px;
-    font-weight: 400;
+    font: 400 22px DM Sans;
 }
 
 .contact .form {
@@ -56,7 +54,9 @@ header nav p:hover {
     justify-content: space-between;
 }
 
-.contact .form .inputs {}
+.contact .form .inputs input:focus {
+    background-color:#e6e0ff  ;
+}
 
 .contact .form .inputs .em {
     border-radius: 5px;
@@ -104,7 +104,6 @@ header nav p:hover {
 
 .contact .form .text .numb {
     margin-top: 19px;
-
 }
 
 footer {

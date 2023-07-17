@@ -5,7 +5,6 @@
 }
 
 body {
-
     background: #F3F3F3;
     width: 1200px;
     margin: 120px 136px 172px 136px;
@@ -19,26 +18,20 @@ header {
 header h1 {
     color: var(--main-black, #181717);
     font: 500 50px DM Sans;
-
 }
 
 header nav {
-
     display: flex;
     align-items: center;
-
 }
 
 header nav p {
-
     color: var(--main-black, #181717);
     font: 500 22px DM Sans;
 }
 
 header nav p:hover {
-
     text-decoration: underline;
-
 }
 
 header nav p:not(:last-child) {
@@ -62,18 +55,14 @@ header nav p:not(:last-child) {
 }
 
 .about .info .right {
-
-    width: 457px;
-    height: 405px;
+    width: 406px;
+    height: 457px;
     background: var(--main-gray, #606060);
-
 }
 
 .about .info .left h1 {
     color: var(--main-black, #181717);
     font: 500 60px 'DM Sans';
-
-
 }
 
 .about .info .left p {
@@ -95,16 +84,12 @@ header nav p:not(:last-child) {
     font: 500 22px DM Sans;
     text-decoration-line: underline;
     margin-right: 60px;
-
-
 }
 
 .about .skill-1 p {
-
     color: var(--main-black, #181717);
     font: 400 20px DM Sans;
     width: 440px;
-
 }
 
 .about .skill-2 {
